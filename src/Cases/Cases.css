@@ -1,0 +1,402 @@
+.cases {
+    /* border: 2px solid black; */
+    height: 2800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.cases-heading {
+    /* border: 2px solid black; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cases-heading h2 {
+    font-size: 32px;
+    color: #18191d;
+    line-height: 1.4;
+    font-weight: 580;
+}
+
+.cases-heading h2 span {
+    color: blue;
+    font-weight: 580;
+}
+
+.cases-studies {
+    border: 2px solid rgba(200, 200, 200, 0.3);
+    height: 580px;
+    width: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.cases-studies-left {
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 55%;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.category {
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.category:hover {
+    color: blue;
+    cursor: pointer;
+
+}
+
+.case-title {
+    font-size: 30px;
+    font-weight: 550;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.case-title:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.case-description {
+    font-size: 17.5px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.industry-country {
+    display: flex;
+    gap: 15px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.industry,
+.country {
+    margin: 0;
+    white-space: nowrap;
+}
+
+.industry-label,
+.country-label {
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.industry-value {
+    font-weight: 450;
+    color: #49515b;
+    font-size: 17px;
+    margin-left: 5px;
+}
+
+.country-value {
+    font-weight: 450;
+    color: #49515b;
+    margin-left: 5px;
+    font-size: 17px;
+
+}
+
+.core-technologies {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.technologies-label strong {
+    font-weight: 580;
+    font-size: 18px;
+    color: #18191d;
+    white-space: nowrap;
+
+}
+
+.core-technologies-icons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.tech-item img {
+    border: 1.5px solid whitesmoke;
+    width: 53px;
+    height: 53px;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 0px 10px;
+    transition: 0.3s ease;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.tech-item img:hover {
+    transform: scale(1.05);
+}
+
+.read-case {
+    margin-top: 10px;
+    height: 40px;
+    width: 170px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px;
+    margin-left: -4px;
+    text-transform: uppercase;
+}
+
+.read-case:hover {
+    background-color: #622717;
+}
+
+.arrow-icon {
+    padding-left: 10px;
+    transition: transform 0.3s;
+    font-size: 17px;
+}
+
+.cases-studies-right {
+    /* border: 2px solid black; */
+    height: 450px;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.case-study-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.case-study-button1 {
+    margin-top: 10px;
+    height: 40px;
+    width: 280px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 13.5px;
+    text-align: center;
+    padding: 5px;
+}
+
+.case-study-button1:hover {
+    background-color: #622717;
+}
+
+.arrow-icon {
+    padding-left: 10px;
+    transition: transform 0.3s;
+    font-size: 16px;
+}
+
+@media (max-width: 1024px) {
+    .articles {
+        height: auto;
+        padding: 20px;
+    }
+
+    .card-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .clients {
+        height: auto;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .clients-top {
+        height: auto;
+        padding: 20px;
+    }
+
+    .clients-bottom {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+
+    .clients-bottom-left,
+    .clients-bottom-right {
+        width: 90%;
+        height: auto;
+    }
+
+    .cases {
+        height: auto;
+        gap: 40px;
+        padding: 20px;
+    }
+
+    .cases-studies {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .cases-studies-right {
+        order: -1;
+    }
+
+    .cases-studies-left,
+    .cases-studies-right {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .articles-heading h2 {
+        font-size: 18px;
+    }
+
+    .articles-heading p {
+        font-size: 30px;
+        max-width: 90%;
+    }
+
+    .card1 {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+
+    .card-image {
+        height: 200px;
+    }
+
+    .clients-heading {
+        font-size: 24px;
+    }
+
+    .clients-slider {
+        flex-wrap: wrap;
+    }
+
+    .cases-heading h2 {
+        font-size: 26px;
+    }
+
+    .case-title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .articles-heading h2 {
+        font-size: 16px;
+    }
+
+    .articles-heading p {
+        font-size: 24px;
+        line-height: 1.2;
+        max-width: 100%;
+    }
+
+    .card-container {
+        gap: 15px;
+    }
+
+    .card1 {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .card-title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .card-meta {
+        font-size: 13px;
+        padding-top: 40px;
+    }
+
+    .circle3 {
+        width: 40px;
+        height: 40px;
+    }
+
+    .arrow1 {
+        font-size: 18px;
+    }
+
+    .clients-heading {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .clients-btn {
+        width: 100%;
+        max-width: 160px;
+        font-size: 14px;
+    }
+
+    .clients-bottom-right h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .clients-bottom-right p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .cases-heading h2 {
+        font-size: 22px;
+    }
+
+    .case-title {
+        font-size: 20px;
+    }
+
+    .case-description {
+        font-size: 16px;
+    }
+
+    .read-case {
+        width: 100%;
+        max-width: 150px;
+        font-size: 12px;
+    }
+}
