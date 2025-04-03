@@ -1,9 +1,13 @@
+/* Core CSS */
 .container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     gap: 20px;
     height: 700px;
+    width: 100%;
+    margin: 0 auto;
+    /* Centers the container horizontally */
 }
 
 .card2 {
@@ -114,7 +118,6 @@
     padding: 25px;
     border-radius: 16px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    width: 400px;
     text-align: start;
     transition: transform 0.3s ease-in-out;
     height: 570px;
@@ -254,7 +257,6 @@ button:hover {
     font-size: 16px;
 }
 
-/* Ensure the container adapts to different screen sizes */
 @media (max-width: 1024px) {
     .container {
         flex-direction: column;
@@ -265,7 +267,7 @@ button:hover {
 
     .card2,
     .card3 {
-        width: 90%;
+        width: 100%;
         max-width: 450px;
         height: auto;
         padding: 20px;

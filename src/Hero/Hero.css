@@ -407,6 +407,7 @@
     .hero-title {
         font-size: 28px;
         line-height: 40px;
+
     }
 
     .hero-description {
@@ -424,6 +425,7 @@
     .hero-small-box3,
     .hero-small-box4 {
         width: 200px;
+
     }
 
     .images-container img,
