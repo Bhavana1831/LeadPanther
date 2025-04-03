@@ -190,12 +190,11 @@
 
 .cases-studies-right {
     /* border: 2px solid black; */
+    height: 450px;
+    width: 35%;
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
     align-items: center;
-    max-width: 40%;
+    justify-content: center;
 }
 
 .case-study-image {
@@ -262,12 +261,6 @@
         height: auto;
     }
 
-    .cases {
-        height: auto;
-        gap: 40px;
-        padding: 20px;
-    }
-
     .cases-studies {
         flex-direction: column;
         height: auto;
@@ -283,6 +276,28 @@
     .cases-studies-right {
         width: 100%;
         height: auto;
+    }
+
+    /* Move country value to next line */
+    .industry-country {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .country {
+        margin-top: 5px;
+    }
+
+    /* Ensure core technologies stay inside the container */
+    .core-technologies {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .core-technologies-icons {
+        flex-wrap: wrap;
+        justify-content: flex-start;
     }
 }
 
@@ -320,6 +335,26 @@
 
     .case-title {
         font-size: 24px;
+    }
+
+    .industry-country {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .country {
+        margin-top: 5px;
+    }
+
+    .core-technologies {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .core-technologies-icons {
+        flex-wrap: wrap;
+        justify-content: flex-start;
     }
 }
 
@@ -400,4 +435,25 @@
         max-width: 150px;
         font-size: 12px;
     }
+
+    .industry-country {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .country {
+        margin-top: 5px;
+    }
+
+    .core-technologies {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .core-technologies-icons {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
 }
